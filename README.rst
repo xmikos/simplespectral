@@ -32,7 +32,8 @@ but there are some important differences:
   ``empty``, ``zeros`` or ``ones`` functions from SimpleSpectral instead of generic versions
   from NumPy (arrays will be byte aligned for your CPU)
 
-*Implemented functions:*
+Implemented functions:
+**********************
 
 - empty
 - zeros
@@ -46,7 +47,8 @@ but there are some important differences:
 - spectrogram
 - stft
 
-*Supported windows:*
+Supported windows:
+******************
 
 - boxcar
 - hann
@@ -56,14 +58,16 @@ but there are some important differences:
 - kaiser
 - tukey
 
-*Supported boundary extensions:*
+Supported boundary extensions:
+******************************
 
 - even
 - odd
 - constant
 - zeros
 
-*Supported detrending functions:*
+Supported detrending functions:
+*******************************
 
 - constant
 
