@@ -9,6 +9,10 @@ url="https://github.com/xmikos/simplespectral"
 license=('MIT')
 depends=('python' 'python-numpy')
 makedepends=('python-setuptools')
+optdepends=(
+  'python-pyfftw: fastest FFT calculations with FFTW library'
+  'python-scipy: faster FFT calculations with scipy.fftpack library'
+)
 source=(https://github.com/xmikos/simplespectral/archive/v$pkgver.tar.gz)
 
 build() {
